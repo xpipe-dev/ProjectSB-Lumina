@@ -20,6 +20,7 @@ grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
 [node name="logo" type="TextureRect" parent="."]
+visible = false
 modulate = Color(1, 1, 1, 0.862445)
 custom_minimum_size = Vector2(664, 314)
 layout_mode = 1
@@ -39,3 +40,19 @@ pivot_offset = Vector2(332, 157)
 texture = ExtResource("1_tp3gi")
 expand_mode = 1
 stretch_mode = 5
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -234.5
+offset_top = -13.0
+offset_right = 234.5
+offset_bottom = 13.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "xpipe logo here frfr just wait all the xpipe assets dissapeared"
+metadata/_edit_use_anchors_ = true

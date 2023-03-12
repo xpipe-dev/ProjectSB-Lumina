@@ -1,7 +1,7 @@
 extends Control
 
 var chapters = {
-	"Welcome": "welcome"
+	"projsb": "projSBstarter"
 }
 
 func paused():

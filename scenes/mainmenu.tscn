@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://7jwbl2mossb5"]
+[gd_scene load_steps=6 format=3 uid="uid://7jwbl2mossb5"]
 
 [ext_resource type="Script" path="res://scripts/ui/mainmenu.gd" id="2_yk5dd"]
 [ext_resource type="Shader" path="res://mat/ui/chromatic.gdshader" id="4_ly422"]
@@ -11,6 +11,9 @@ shader_parameter/b_displacement = Vector2(-3, 0)
 
 [sub_resource type="LabelSettings" id="LabelSettings_ransg"]
 font_size = 64
+
+[sub_resource type="LabelSettings" id="LabelSettings_wppp5"]
+font_size = 28
 
 [node name="bgmap" type="Node3D"]
 
@@ -41,7 +44,7 @@ offset_left = -40.0
 offset_top = -24.0
 grow_horizontal = 0
 grow_vertical = 0
-text = "Your copyright notice or something"
+text = "mesa labs is still in development lmao"
 horizontal_alignment = 2
 
 [node name="title" type="Label" parent="UI"]
@@ -53,8 +56,22 @@ offset_left = 32.0
 offset_right = 233.0
 offset_bottom = -32.0
 grow_vertical = 0
-text = "Lumina"
+text = "ProjectSB"
 label_settings = SubResource("LabelSettings_ransg")
+
+[node name="title2" type="Label" parent="UI"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 37.0
+offset_top = -54.0
+offset_right = 332.0
+offset_bottom = 37.0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 1
+text = "Lumina!"
+label_settings = SubResource("LabelSettings_wppp5")
 
 [node name="menubuttons" type="HBoxContainer" parent="UI"]
 layout_mode = 0
@@ -151,11 +168,10 @@ offset_right = -32.0
 offset_bottom = 55.0
 grow_horizontal = 0
 bbcode_enabled = true
-text = "[b]Welcome to lumina![/b]
-This is the [code]scenes/mainmenu.tscn[/code] file, feel free to edit it to your heart's desires.
-
-Check out the GitHub Wiki for more documentation!"
+text = "[b]Welcome to Project:SB[/b]
+Any and all announcements go here"
 fit_content = true
+context_menu_enabled = true
 
 [connection signal="pressed" from="UI/menubuttons/newgame" to="UI" method="newgame_pressed"]
 [connection signal="pressed" from="UI/menubuttons/settings" to="UI" method="options_pressed"]

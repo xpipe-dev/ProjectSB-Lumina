@@ -73,6 +73,7 @@ func _ready():
 	%glow_box.set_pressed_no_signal(SettingsManager.get_setting('glow'))
 	%fog_box.set_pressed_no_signal(SettingsManager.get_setting('volumetric_fog'))
 	%motionblur_box.set_pressed_no_signal(SettingsManager.get_setting('motion_blur'))
+	%sdfgi_box.set_pressed_no_signal(SettingsManager.get_setting('sdfgi'))
 	
 func bind_key(key):
 	bind = key.name
@@ -90,6 +91,7 @@ func apply_pressed():
 	SettingsManager.set_setting('glow', %glow_box.is_pressed())
 	SettingsManager.set_setting('volumetric_fog', %fog_box.is_pressed())
 	SettingsManager.set_setting('motion_blur', %motionblur_box.is_pressed())
+	SettingsManager.set_setting('sdfgi', %sdfgi_box. is_pressed())
 	SettingsManager.save_settings()
 
 func cancel_pressed():

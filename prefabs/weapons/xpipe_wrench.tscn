@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://gjqklxirsjl6"]
+
+[ext_resource type="Script" path="res://scripts/ent/weapon.gd" id="1_uqog5"]
+
+[node name="xpipe_wrench" type="Node3D"]
+script = ExtResource("1_uqog5")
+display_name = "Wrench"
+clip_size = 9999999
+ammo = 999999999999
+secondary_ammo = 0

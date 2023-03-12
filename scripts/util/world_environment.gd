@@ -11,3 +11,4 @@ func on_settings_changed():
 func change_environment():
 	environment.glow_enabled = SettingsManager.get_setting('glow')
 	environment.volumetric_fog_enabled = SettingsManager.get_setting('volumetric_fog')
+	environment.sdfgi_enabled = SettingsManager.get_setting('sdfgi')

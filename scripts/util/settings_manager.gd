@@ -9,7 +9,8 @@ var _settings = {
 	'vsync': true,
 	'glow': true,
 	'volumetric_fog': true,
-	'motion_blur': true
+	'motion_blur': true,
+	'sdfgi': true
 }
 
 func _ready():

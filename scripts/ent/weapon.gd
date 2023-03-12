@@ -1,6 +1,6 @@
 extends Node3D
 class_name weapon
-
+"res://sound/ui/hover.wav"
 enum wep_state {
 	IDLE,
 	FIRING_PRIMARY,

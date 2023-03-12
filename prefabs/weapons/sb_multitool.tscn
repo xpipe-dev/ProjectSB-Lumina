@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfpj4eygcoj5y"]
+
+[ext_resource type="Script" path="res://scripts/ent/weapon.gd" id="1_fhr5v"]
+
+[node name="sb_multitool" type="Node3D"]
+script = ExtResource("1_fhr5v")
+display_name = "Multi Tool"
+clip_size = 99999999
+fire_rate = 100.0
+ammo = 999999999999
+secondary_ammo = 0
