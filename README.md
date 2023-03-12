@@ -1,3 +1,10 @@
+#PROJECT SB: LUMINA
+##welcome
+
+THIS IS A PROJECT BY XPIPE
+
+LUMINA README IS BELOW
+
 # Lumina
 Lumina is a flexible and powerful first-person shooter framework for the Godot game engine. It provides a solid foundation for creating captivating FPS games.
 
